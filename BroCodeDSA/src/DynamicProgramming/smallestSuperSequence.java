@@ -1,0 +1,36 @@
+package DynamicProgramming;
+
+public class smallestSuperSequence {
+
+	public static void main(String[] args) {
+		
+		String str1 = "AGGTAB";
+	    String str2 = "GXTXAYB";
+	    int length = smallestSuperSequence(str1, str2);
+	    System.out.println("Length of the shortest common supersequence: " + length);
+	}
+
+	private static int smallestSuperSequence(String str1, String str2) {
+		int len1 = str1.length();
+		int len2 = str2.length();
+		int superseq[][] = new int[len1 + 1][len2 + 1];
+		for(int p = 0;p<=len1;p++) {
+			for(int q = 0;q<=len2;q++) {
+				if(p==0) {
+					superseq[p][q] = q;
+				}
+				else if(q == 0) {
+					superseq[p][q] = p;
+				}
+				else if(str1.charAt(p-1) == str2.charAt(q-1)) {
+					superseq[p][q] = 1+superseq[p-1][q-1];
+				}
+				else {
+					superseq[p][q] = 1 +Math.min(superseq[p-1][q], superseq[p][q-1]);
+				}
+			}
+		}
+		return superseq[len1][len2];
+	}
+
+}

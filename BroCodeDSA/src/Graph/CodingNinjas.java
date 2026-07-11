@@ -1,0 +1,69 @@
+package Graph;
+
+
+public class CodingNinjas {
+	int[][] a = {{-1,1},{-1,0},{-1,1},{0,-1},{0,1},{1,-1},{1,0},{1,1}};
+	String pattern = "CODINGNINJAS";
+	int[][] used;
+	
+	int validPoint(int x,int y,int N,int M) {
+		if(x>=0 && x<N && y>=0 && y<M) {
+			return 1;
+		}
+		return 0;
+	}
+	int DFS(String[] G,int x,int y,int index,int N,int M) {
+		if(index == 11) {
+			return 1;
+		}
+		used[x][y] = 1;
+		int i , newx,newy;
+		int found = 0;
+		for(i = 0;i<8;i++) {
+			newx = x + a[i][0];
+			newy = y + a[i][1];
+			if(validPoint(newx,newy,N,M) == 1 && G[newx].charAt(newy) == pattern.charAt(index) && used[newx][newy] == 0) {
+				found = found | DFS(G,newx,newy,index + 1,N,M);
+			}
+		}
+		used[x][y] = 0;
+		return found;
+	}
+	private int solve(String[] Graph, int N, int M) {
+		int i,j,found = 0;
+		used = new int[N][M];
+		for( i = 0;i<M;i++) {
+			for(j = 0;j<N;j++) {
+				if(Graph[i].charAt(j)=='C') {
+					found = DFS(Graph,i,j,1,N,M);
+					if(found == 1) {
+						break;
+					}
+				}
+			}
+			if(found == 1) {
+				break;
+			}
+		}
+		return found;
+	}
+
+	public static void main(String[] args) {
+		
+		CodingNinjas obj = new CodingNinjas();
+        String[] Graph = {
+            "CXOXO",
+            "ODING",
+            "NINJA",
+            "OOOGA",
+            "DNING"
+        };
+        int N = Graph.length;
+        int M = Graph[0].length();
+        int result = obj.solve(Graph, N, M);
+        System.out.println("Pattern found: " + result);
+	}
+
+	
+
+}

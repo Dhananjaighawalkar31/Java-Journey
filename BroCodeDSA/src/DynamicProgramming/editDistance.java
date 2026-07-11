@@ -1,0 +1,57 @@
+package DynamicProgramming;
+
+public class editDistance {
+
+	public static void main(String[] args) {
+		String s = "kitten";
+		String t = "sitting";
+		int distance = editDistance(s, t);
+		System.out.println("Edit distance between '" + s + "' and '" + t + "': " + distance);
+	}
+
+	private static int editDistance(String s, String t) {
+		int m = s.length();
+		int n = t.length();
+		
+		int[][] subProblems = new int[m+1][n+1];
+		for(int i = 0;i<=m;i++) {
+			for(int j = 0;j<=n;j++) {
+				subProblems[i][j] = -1;
+			}
+		}
+		return editDistanceHelper(s,t,subProblems);
+	}
+
+	private static int editDistanceHelper(String s, String t, int[][] subProblems) {
+		if(s.length() == 0) {
+			return t.length();
+		}
+		if(t.length() == 0) {
+			return s.length();
+		}
+		int m = s.length();
+		int n = t.length();
+		
+		if(subProblems[m][n] != -1) {
+			return subProblems[m][n];
+		}
+		
+		if(s.charAt(0) == t.charAt(0)) {
+			int smallAns = editDistanceHelper(s.substring(1),t.substring(1),subProblems);
+			subProblems[m-1][n-1] = smallAns;
+			subProblems[m][n] = smallAns;
+		}else {
+			int remove = editDistanceHelper(s.substring(1),t,subProblems);
+			subProblems[m-1][n] = remove;
+			
+			int insert = editDistanceHelper(s,t.substring(1),subProblems);
+			subProblems[m][n-1] = insert;
+			
+			int substitute = editDistanceHelper(s.substring(1),t.substring(1),subProblems);
+			subProblems[m-1][n-1] = substitute;
+			subProblems[m][n] = 1 + Math.min(remove,Math.min(insert, substitute));
+		}
+		return subProblems[m][n];
+	}
+
+}
