@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BackTracking/BackTracking.iml" filepath="$PROJECT_DIR$/BackTracking/BackTracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearchTree/BinarySearchTree.iml" filepath="$PROJECT_DIR$/BinarySearchTree/BinarySearchTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinaryTrees1/BinaryTrees1.iml" filepath="$PROJECT_DIR$/BinaryTrees1/BinaryTrees1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BroCode/BroCode.iml" filepath="$PROJECT_DIR$/BroCode/BroCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BroCodeDSA/BroCodeDSA.iml" filepath="$PROJECT_DIR$/BroCodeDSA/BroCodeDSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dynamic_Programming/Dynamic_Programming.iml" filepath="$PROJECT_DIR$/Dynamic_Programming/Dynamic_Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Functions/Functions.iml" filepath="$PROJECT_DIR$/Functions/Functions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Graph/Graph.iml" filepath="$PROJECT_DIR$/Graph/Graph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Graphs/Graphs.iml" filepath="$PROJECT_DIR$/Graphs/Graphs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashMaps/HashMaps.iml" filepath="$PROJECT_DIR$/HashMaps/HashMaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Journey.iml" filepath="$PROJECT_DIR$/Java-Journey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedLists2/LinkedLists2.iml" filepath="$PROJECT_DIR$/LinkedLists2/LinkedLists2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MusicPlayer/MusicPlayer.iml" filepath="$PROJECT_DIR$/MusicPlayer/MusicPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewFunda/NewFunda.iml" filepath="$PROJECT_DIR$/NewFunda/NewFunda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewFundamentals/NewFundamentals.iml" filepath="$PROJECT_DIR$/NewFundamentals/NewFundamentals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectOrientedProgramming/ObjectOrientedProgramming.iml" filepath="$PROJECT_DIR$/ObjectOrientedProgramming/ObjectOrientedProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pattern/Pattern.iml" filepath="$PROJECT_DIR$/Pattern/Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Patterns/Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PriorityQueues/PriorityQueues.iml" filepath="$PROJECT_DIR$/PriorityQueues/PriorityQueues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Queue/Queue.iml" filepath="$PROJECT_DIR$/Queue/Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlidingWindow/SlidingWindow.iml" filepath="$PROJECT_DIR$/SlidingWindow/SlidingWindow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stacks/Stacks.iml" filepath="$PROJECT_DIR$/Stacks/Stacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TicTacToeOOPS/TicTacToeOOPS.iml" filepath="$PROJECT_DIR$/TicTacToeOOPS/TicTacToeOOPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trees/Trees.iml" filepath="$PROJECT_DIR$/Trees/Trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tries/Tries.iml" filepath="$PROJECT_DIR$/Tries/Tries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cvcorp/cvcorp.iml" filepath="$PROJECT_DIR$/cvcorp/cvcorp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fundamentals/fundamentals.iml" filepath="$PROJECT_DIR$/fundamentals/fundamentals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practiceProgramming/practiceProgramming.iml" filepath="$PROJECT_DIR$/practiceProgramming/practiceProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timeCompplexity/timeCompplexity.iml" filepath="$PROJECT_DIR$/timeCompplexity/timeCompplexity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twoDimensionalArrays/twoDimensionalArrays.iml" filepath="$PROJECT_DIR$/twoDimensionalArrays/twoDimensionalArrays.iml" />
+    </modules>
+  </component>
+</project>
