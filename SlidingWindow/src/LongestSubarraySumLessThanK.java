@@ -1,4 +1,5 @@
 public class LongestSubarraySumLessThanK {
+//    pattern 2
     public int m1(int[] arr , int k){
         int n = arr.length;
         int l = 0,r = 0,maxLen = 0,sum = 0;
