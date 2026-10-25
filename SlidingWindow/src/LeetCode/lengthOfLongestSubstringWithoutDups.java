@@ -1,3 +1,5 @@
+package LeetCode;
+
 public class lengthOfLongestSubstringWithoutDups {
 
     public int lengthOfLongestSubstring(String s) {

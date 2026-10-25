@@ -1,3 +1,5 @@
+package LeetCode;
+
 class MaxVowelsInSubstring {
     public int maxVowels(String s, int k) {
         int n = s.length();

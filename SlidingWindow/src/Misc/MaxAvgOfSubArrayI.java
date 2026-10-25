@@ -1,3 +1,5 @@
+package Misc;
+
 public class MaxAvgOfSubArrayI {
 //    pattern 1
     public double findMaxAverage(int[] nums, int k) {

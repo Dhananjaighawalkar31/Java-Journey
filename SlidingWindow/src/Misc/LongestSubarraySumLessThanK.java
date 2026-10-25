@@ -1,3 +1,5 @@
+package Misc;
+
 public class LongestSubarraySumLessThanK {
 //    pattern 2
     public int m1(int[] arr , int k){

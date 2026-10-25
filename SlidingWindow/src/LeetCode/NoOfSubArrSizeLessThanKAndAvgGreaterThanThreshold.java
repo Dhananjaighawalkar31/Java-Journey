@@ -1,3 +1,5 @@
+package LeetCode;
+
 public class NoOfSubArrSizeLessThanKAndAvgGreaterThanThreshold {
 //    1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
     public int numOfSubarrays(int[] arr, int k, int threshold) {
