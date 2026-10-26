@@ -5,3 +5,5 @@ Longest Subarray Sum Less Than K(P2)
 1423 - Maximum Points You Can Obtain from Cards.
 1456 - Maximum Number of Vowels in a Substring of Given Length(p1)
 Birthday Chocolate https://www.hackerrank.com/challenges/the-birthday-bar/problem
+MaxMin https://www.hackerrank.com/challenges/angry-children/problem
+1004 - Max Consecutive Ones III http://leetcode.com/problems/max-consecutive-ones-iii/description/
