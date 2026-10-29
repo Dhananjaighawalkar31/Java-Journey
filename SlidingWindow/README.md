@@ -7,3 +7,4 @@ Longest Subarray Sum Less Than K(P2)
 Birthday Chocolate https://www.hackerrank.com/challenges/the-birthday-bar/problem
 MaxMin https://www.hackerrank.com/challenges/angry-children/problem
 1004 - Max Consecutive Ones III http://leetcode.com/problems/max-consecutive-ones-iii/description/
+904 - Fruit Into Baskets https://leetcode.com/problems/fruit-into-baskets/description/
