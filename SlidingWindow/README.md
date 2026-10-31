@@ -8,3 +8,4 @@ Birthday Chocolate https://www.hackerrank.com/challenges/the-birthday-bar/proble
 MaxMin https://www.hackerrank.com/challenges/angry-children/problem
 1004 - Max Consecutive Ones III http://leetcode.com/problems/max-consecutive-ones-iii/description/
 904 - Fruit Into Baskets https://leetcode.com/problems/fruit-into-baskets/description/
+striver problem 313. Longest Substring With At Most K Distinct Characters https://takeuforward.org/practice/dsa/longest-substring-with-at-most-k-distinct-characters
