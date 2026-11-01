@@ -9,3 +9,4 @@ MaxMin https://www.hackerrank.com/challenges/angry-children/problem
 1004 - Max Consecutive Ones III http://leetcode.com/problems/max-consecutive-ones-iii/description/
 904 - Fruit Into Baskets https://leetcode.com/problems/fruit-into-baskets/description/
 striver problem 313. Longest Substring With At Most K Distinct Characters https://takeuforward.org/practice/dsa/longest-substring-with-at-most-k-distinct-characters
+1358 - Number of Substrings Containing All Three Characters https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
