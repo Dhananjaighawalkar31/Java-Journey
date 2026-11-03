@@ -10,3 +10,4 @@ MaxMin https://www.hackerrank.com/challenges/angry-children/problem
 904 - Fruit Into Baskets https://leetcode.com/problems/fruit-into-baskets/description/
 striver problem 313. Longest Substring With At Most K Distinct Characters https://takeuforward.org/practice/dsa/longest-substring-with-at-most-k-distinct-characters
 1358 - Number of Substrings Containing All Three Characters https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
+Longest Substring with K Uniques https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1
