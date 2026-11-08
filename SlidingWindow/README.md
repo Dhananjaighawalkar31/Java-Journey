@@ -12,3 +12,5 @@ striver problem 313. Longest Substring With At Most K Distinct Characters https:
 1358 - Number of Substrings Containing All Three Characters https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 Longest Substring with K Uniques https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1
 209 - MinimumSizeSubarraySum https://leetcode.com/problems/minimum-size-subarray-sum/description/
+424 - Longest Repeating Character Replacement https://leetcode.com/problems/longest-repeating-character-replacement/description/
+930 – Binary Subarrays With Sum https://leetcode.com/problems/binary-subarrays-with-sum/description/
